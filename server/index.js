@@ -13,7 +13,8 @@ app.use(cors());
 
 app.use("/posts", postRoutes);
 
-const CONNECTION_URL = "mongodb://127.0.0.1:27017/memories";
+const CONNECTION_URL =
+  "mongodb+srv://thommy:Emebet1994@cluster0.ebf0nyk.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 mongoose
